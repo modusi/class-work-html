@@ -1,0 +1,127 @@
+
+body{
+    background-color: rgb(228, 219, 219);
+}
+.first {
+    background-color: #7a27c1;
+    width: 800px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 2%;
+}
+.radius{
+    position: relative;
+    left: 5%;
+    top: 3%;
+    border-radius: 50%;
+}
+.daniel {
+    position: relative;
+    left: 15%;
+    bottom: 12%;
+    color: white;
+}
+.color{
+    position: relative;
+    left: 15%;
+    bottom: 15%;
+    color:gray;
+}
+.color-white{
+    color: white;
+    position: relative;
+    left: 5%;
+    bottom: 10%;
+}
+.color-gray{
+    color: gray;
+    position: relative;
+    left: 5%;
+    bottom: 5%;
+}
+.second{
+    background-color: #d0d5df;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 2%;
+}
+.jeanette{
+    position: relative;
+    left: 30%;
+    bottom: 16%;
+}
+.color2{
+    position: relative;
+    left: 30%;
+    bottom: 18%;
+    color:gray;
+}
+.color-black{
+    position: relative;
+    left: 5%;
+    bottom: 10%;
+}
+.third {
+    background-color: #4b546a;
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 2%;
+    position: absolute;
+    left: 49%;
+    top: 0%;
+}
+.jonathan{
+    position: relative;
+    left: 30%;
+    bottom: 13%;
+    color: white;
+}
+.color3{
+    position: relative;
+    left: 30%;
+    bottom: 15%;
+    color: gray;
+}
+.four {
+    background-color: #191f2c;
+    width: 810px;
+    height: 400px;
+    border-radius: 2%;
+    position: absolute;
+    left: 20%;
+    bottom: -1%;
+}
+.patrick{
+    position: relative;
+    left: 15%;
+    bottom: 15%;
+    color: white;
+}
+.color4{
+    position: relative;
+    left: 15%;
+    bottom: 16%;
+    color: gray;
+}
+.five {
+    background-color: #f5f6f7;
+    width: 400px;
+    height: 855px;
+    margin: 10px;
+    border-radius: 2%;
+    position: absolute;
+    left: 68%;
+    top: 0;
+}
+.kira{
+    position: relative;
+    left: 25%;
+    bottom: 5%;
+}
+.color5{
+    position: relative;
+    left: 25%;
+    bottom: 5%;
+}
