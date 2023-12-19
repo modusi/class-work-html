@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+img{
+   width: 30vw;
+    height:40vw;
+    position: relative;
+}
+.border{
+    border: 1px solid;
+    width: 20vw;
+    height: 10vw;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 15vw;
+    left: 1vw;
+    color: #cbc3c8;
+}
+
+.pg2{
+    width: 30vw;
+}
+.size{
+    font-size: 2.5vw;
+}
+
+.photo{
+    height: 15vw;
+}
+
+.pg3{
+    border: 1px solid;
+    width: 25vw;  
+}
+span{
+    font-size: 3.5vw;
+}
+
+footer{
+    background-color: black;
+    height: 40vw;
+    width: 30vw;
+}
+.logo{
+    width: 18vw;
+    height: 4vw;
+    top: 1vw;
+    left: 5vw;
+}
+.color-white{
+    color: white;
+   padding: 10vw;
+}
+.icon{
+    width: 5vw;
+    height: 5vw;
+    padding: 1vw;
+    left: 3vw;
+    top: 2vw;
+}
