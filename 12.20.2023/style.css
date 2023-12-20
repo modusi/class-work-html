@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+
+main{
+    display: flex;
+    margin: 0 auto;
+    width: 80vw;
+    height: 45vw;
+}
+.pg1{
+    position: relative;
+    width: 37vw;
+    height: 45vw;
+    background-image: url('./images/bg-main-desktop.png');
+    background-repeat: no-repeat;
+}
+.absolute{
+    background-image: url('./images/bg-card-front.png');
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 14vw;
+    position: absolute;
+    left: 8vw;
+    top: 8vw;
+    padding: 1vw;
+}
+.padding{
+    padding-top: 4vw;
+    font-size: 2vw;
+    color: white;
+}
+.jane{
+    color: white;
+}
+.card-first{
+    width: 25vw;
+    height: 13vw;
+}
+.under-card{
+    background-image: url('./images/bg-card-back.png');
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 14vw;
+    position: absolute;
+    left: 12vw;
+    top: 23vw;
+    padding-left: 18vw;
+    padding-top: 5.8vw;
+    color: white;
+}
+.card-second{
+    width: 25vw;
+    height: 13vw;
+}
+
+
+.pg2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 45vw;
+    background-color: white;
+}
+input{
+    width: 20vw;
+    height: 2vw;
+    border-radius: 0.5vw;
+}
+label{
+    font-size: 1vw;
+}
+
+.cvc-left{
+    margin-left: 2vw;
+}
+.size{
+ width: 3vw;
+}
+.red{
+    width: 4vw;
+}
+.size-red{
+    width: 10vw;
+    margin-left: 2.5vw;
+}
+button{
+    width: 20vw;
+    height: 2vw;
+    background-color:#25052f;
+    color: white;
+    border-radius: 0.5vw;
+}
+
