@@ -14,7 +14,7 @@ main{
  .photo{
     background-image: url('./images/image-hero-mobile.jpg');
     background-repeat: no-repeat;
-    width: 90vw;
+    width: 100vw;
     height: 100vw;
  }
  
@@ -52,7 +52,7 @@ nav{
    z-index: 1;
    
 }
-.border{
+.border-menu{
     border: 1px solid;
 }
 nav a{
@@ -79,8 +79,6 @@ nav:hover{
     margin-left: 40px;
     position: absolute;
     top: 480px;
-   
-  
 }
 
 .mastercraft-logo{
@@ -90,13 +88,14 @@ nav:hover{
     left: 50%;
 }
 .section-1{
-    padding:50px 0 0 0 ;
+    padding:50px;
     border: 1px solid rgba(128, 128, 128, 0.452);
     border-radius: 10px;
     background-color: white;
 }
 .color-grey{
     color: #8f8f8f;
+    padding: 30px;
 }
 .button-container{
     display: flex;
@@ -105,12 +104,93 @@ nav:hover{
 button{
     margin-left: 30px;
     margin-top: 10px;
-    height: 40px;
-    width: 150px;
+    height: 50px;
+    width: 180px;
     background-color: #37b4b1;
-    border-radius: 10px;
+    color: white;
+    border-radius: 30px;
 }
 .icon-bookmark{
-    /* position: absolute; */
     right: 10px;
+    height: 60px;
+}
+
+.section-2{
+    border: 1px solid  rgba(128, 128, 128, 0.452);
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 40px;
+    padding: 40px;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.border{
+    border: 1px solid grey;
+    width: 100px;
+    margin-left: 110px;
+}
+.persent{
+    display: flex;
+    position: relative;
+}
+.background-color-green{
+    border-radius: 10px;
+    background-color: #37b4b1;
+    width: 70%;
+    height: 10px;
+    z-index: 1;
+}
+.background-color-grey{
+    position: absolute;
+    right: 50px;
+    border-radius: 10px;
+    background-color:#f4f4f4;
+    width: 30%;
+    height: 10px;
+}
+
+
+.section-3{
+    border: 1px solid  rgba(128, 128, 128, 0.452);
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 40px;
+    padding: 10px;
+}
+.color-grey-top{
+    color: gray;
+    padding: 30px;
+}
+.under-container{
+    border: 1px solid  rgba(128, 128, 128, 0.452);
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    margin-left: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.green{
+   color: #a6e9e0; 
+   padding-left: 25px;
+}
+h1{
+    padding-left: 25px;
+}
+.end-conteiner{
+    opacity: 50%;
+}
+.grey{
+    background-color: gray;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
