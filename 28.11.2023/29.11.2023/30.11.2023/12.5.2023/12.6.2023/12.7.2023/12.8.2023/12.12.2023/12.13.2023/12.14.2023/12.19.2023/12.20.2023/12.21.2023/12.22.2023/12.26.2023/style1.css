@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+main{
+    max-width: 100vw;
+    margin: 0 auto;
+ }
+ .photo{
+    background-image: url('./images/image-hero-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 25vw;
+ }
+ 
+ header{
+    padding: 10px 5%;
+    height: 30%;  
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+nav{
+    display: flex;
+}
+nav a{
+    color: black;
+    padding-left: 30px;
+}
+
+.menu:hover~nav{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 85%;
+    height: 200px;
+    background-color: white;
+}
+
+
+.mastercraft{ 
+    width: 30vw;
+    margin: 0 20%;
+    position: relative;
+    top: -50px;
+}
+
+.mastercraft-logo{
+    position: absolute;
+    transform: translate(400% , -50%);
+    top: 0;
+    left: 50%;
+}
+.section-1{
+    padding:50px;
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    border-radius: 10px;
+    background-color: white;
+    width: 200%;
+}
+.color-grey{
+    color: #8f8f8f;
+    padding: 30px;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 50px;
+    width: 180px;
+    background-color: #37b4b1;
+    color: white;
+    border-radius: 30px;
+}
+.icon-bookmark{
+    right: 10px;
+    height: 60px;
+}
+
+.section-2{
+    border: 1px solid  rgba(128, 128, 128, 0.452);
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 40px;
+    padding: 40px;
+    width: 200%;
+    display: flex;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.border{
+    border: 1px solid grey;
+    margin-left: 110px;
+}
+.persent{
+    display: flex;
+    position: relative;
+}
+.background-color-green{
+    border-radius: 10px;
+    background-color: #37b4b1;
+    width: 70%;
+    height: 10px;
+    z-index: 1;
+}
+.background-color-grey{
+    position: absolute;
+    right: 50px;
+    border-radius: 10px;
+    background-color:#f4f4f4;
+    width: 30%;
+    height: 10px;
+}
+
+
+.section-3{
+    border: 1px solid  rgba(128, 128, 128, 0.452);
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 40px;
+    padding: 10px;
+    width: 200%;
+}
+.color-grey-top{
+    color: gray;
+    padding: 30px;
+}
+.under-container{
+    border: 1px solid  rgba(128, 128, 128, 0.452);
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    margin-left: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+.green{
+   color: #a6e9e0; 
+   padding-left: 25px;
+}
+h1{
+    padding-left: 25px;
+}
+.end-conteiner{
+    opacity: 50%;
+}
+.grey{
+    background-color: gray;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

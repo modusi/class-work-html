@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main{
+   width: 100%;
+   padding-left:90px;
+   padding-top: 30px;
+   position: relative;
+}
+
+header{
+   padding: 10px;
+   height: 30%;  
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
+   position: relative;
+}
+nav a{
+    color: black;
+    padding: 20px;
+}
+.menu:hover~nav{
+    width: 50%;
+    background-color: white;
+}
+
+.photo{
+    background-image: url('./images/image-web-3-mobile.jpg');
+    height: 350px;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text{
+    padding-top: 3%;
+    width: 60%;
+    height: 500px;
+    font-size: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner3{
+    width: 520px;
+    height: 150px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.red-conteiner{
+    background-color: red;
+    width: 370px;
+    height: 50px;
+    font-size: 40px;
+    margin-top: 220px;
+    padding-left: 60px;
+    margin-right: 30px;
+}
+.red-conteiner a{
+    color: white;
+}
+
+.blu_conteiner{
+    background-color: #030019;
+    width: 29%;
+    height: 850px;
+    margin-top: 100px;
+    position: absolute;
+    left: 70%;
+    top: 0;
+}
+span{
+    color: #f1ab60;
+    font-size: 40px;
+    margin-left: 40px;
+}
+h1{
+    color: white;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+p{
+    color: #aeacbe;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.line{
+    border: 1px solid red;
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 10%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.uder-photos{
+    background-image: url('./images/image-retro-pcs.jpg');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    margin-top: 100px;
+}
+.uder-photos2{
+    background-image: url('./images/image-top-laptops.jpg');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    margin-top: 100px;
+}
+.uder-photos3{
+    background-image: url('./images/image-gaming-growth.jpg');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    margin-top: 100px;
+}
+h2{
+    margin-left: 230px;
+    color: #c5c4cc;
+    font-size: 50px;
+}
+h3{
+    margin-left: 230px;
+    margin-top: 40px;
+    width: 120%;
+    color: black;
+    font-size: 25px;
+}
+.last-p-tags{
+    color: #aeacbe;
+    margin-left: 230px;
+    margin-top: 50px;
+    width: 120%;
+    font-size: 20px;
+}
