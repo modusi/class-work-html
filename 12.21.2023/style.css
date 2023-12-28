@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+main{
+    border: 1px solid;
+    margin: 0 auto;
+    width: 75vw; 
+    height:50vw;  
+    background-color: #faedfe;
+    position: relative;
+}
+
+
+.image{
+    width: 75vw;
+}
+
+
+.up-container{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    border-radius: 2%;
+    background-color: white;
+    
+}
+
+
+.icon{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+span{
+    position: absolute;
+    left: 16%;
+    top: 8%;
+    font-size: 3vw;
+}
+p{
+    position: absolute;
+    left: 10%;
+    top: 22%;
+}
+.minus{
+    position: absolute;
+    left: 90%;
+    top: 21%;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    color: #e0d9e0;
+}
+.center{
+    height: 70%;
+}
+.border{
+    height: 10%;
+}
+
+label{
+    position: absolute;
+    left: 5%;
+}
+
+.icon-plus{
+    position: absolute;
+    left: 90%;
+}

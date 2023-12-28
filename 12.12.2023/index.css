@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first {
+    background-color: #7a27c1;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 2%;
+}
+.radius{
+    position: relative;
+    left: 5%;
+    top: 3%;
+    border-radius: 50%;
+}
+.daniel {
+    position: relative;
+    left: 20%;
+    bottom: 7%;
+    color: white;
+}
+.color{
+    position: relative;
+    left: 20%;
+    bottom: 7%;
+    color:gray;
+}
+.color-white{
+    color: white;
+    position: relative;
+    left: 5%;
+}
+.color-gray{
+    color: gray;
+    position: relative;
+    left: 5%;
+    top: 5%;
+}
+.second {
+    background-color: #4b546a;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 2%;
+}
+.jonathan{
+    position: relative;
+    left: 20%;
+    bottom: 15%;
+}
+.color2{
+    position: relative;
+    left: 20%;
+    bottom: 15%;
+    color: gray;
+}
+.third {
+    background-color: #d0d5df;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 2%;
+}
+.color-black{
+    position: relative;
+    left: 5%;
+}
+.four {
+    background-color: #1a1e2c;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 2%;
+}
+.patrick{
+    position: relative;
+    left: 20%;
+    bottom: 10%;
+}
+.color3{
+    position: relative;
+    left: 20%;
+    bottom: 10%;
+    color: gray;
+}
+.five {
+    background-color: #f5f6f7;
+    width: 500px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 2%;
+}
+.kira{
+    position: relative;
+    left: 20%;
+    bottom: 5%;
+}
+.color4{
+    position: relative;
+    left: 20%;
+    bottom: 5%;
+    color: gray;
+}
