@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    position: absolute;
+    border: 1px solid;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+.seaction-1{
+    border: 1px solid;
+    width: 5px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    left: 49%;
+    top: 100px;
+    animation: fan 3600s infinite;
+    transform-origin: bottom center;
+    animation-timing-function: linear;
+}
+.seaction-2{
+    border: 1px solid;
+    width: 5px;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    left: 49%;
+    top: 100px;
+    animation: fan 60s infinite;
+    transform-origin: top center;
+    animation-timing-function: linear;
+}
+.seaction-3{
+    border: 1px solid;
+    width: 5px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    left: 49%;
+    top: -50px;
+    animation: fan 86400s infinite;
+    transform-origin: top center;
+    animation-timing-function: linear;
+}
+
+@keyframes fan {
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}
+
