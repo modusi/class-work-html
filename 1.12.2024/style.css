@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 75vw;
+    height: 260vw;
+    margin: 0 auto;
+}
+
+header{
+    background-image: url('./images/mobile-image-hero-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 420px;
+    position: relative;
+}
+.logo{
+    margin-left: 40%;
+    margin-top: 35px;
+}
+.hamburger{
+    background-image: url('./images/icon-hamburger.svg');
+    background-repeat: no-repeat;
+    width:30px;
+    height:30px; 
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    z-index: 2;
+}
+.hamburger:hover{
+    background-image: url('./images/icon-close.svg'); 
+}
+
+nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: white;
+    z-index: 1;
+ }
+ nav:hover{
+    padding: 30px;
+    width: 100%;
+ }
+ nav a{
+     color: black;
+     text-decoration: none;
+ }
+ .hamburger:hover~nav{
+    padding: 30px;
+    width: 100%;
+    transition: 2s;
+}
+
+
+.seaction-2{
+    width: 80%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.grey{
+    color: gray;
+}
+.arrow{
+    width: 20%;
+    margin-left: 60%;
+    margin-top: -15%;
+}
+.seaction-3{
+    width: 100%;
+    margin-top: 50px;
+}
+.seaction-4{
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.seaction-5{
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+@media only screen and (min-width: 800px) {
+    main{
+        height: 50vw;
+    }
+    
+    .flex{
+        display: flex;
+    }
+    header{
+        background-image: url('./images/desktop-image-hero-1.jpg');
+        width: 100%;
+        height: 500px;
+    }
+    .logo{
+        margin-left: 7%;
+        margin-top: 40px;
+    }
+    .hamburger{
+        display: none;
+    }
+    nav{
+        overflow: visible;   
+        position: relative;
+        left: 300px;
+        top: -19px;
+    }
+    nav:hover{
+        padding:0;
+        width: 0;
+     }
+     nav a{
+         color: white;
+     }
+     .seaction-2{
+        width: 60%;
+        margin-top: 5%;
+    }
+    h1{
+        font-size: 50px;
+    }
+     .arrow{
+        margin-top: -20%;
+    }
+    .seaction-3{
+        margin-top: 0px;
+    }
+    .seaction-4{
+        width: 200%;
+    }
+    .seaction-5{
+        margin-top: 10px;
+    }
+  }
+  @media only screen and (min-width: 1100px) {
+    .arrow{
+        margin-top: -16%;
+    }
+  }
+  @media only screen and (min-width: 1300px) {
+    .arrow{
+        margin-top: -14%;
+    }
+  }
+
+  @media only screen and (min-width: 1400px) {
+    .seaction-4{
+        width: 40%;
+    }
+    .seaction-5{
+        margin-top: 0;
+    }
+    .arrow{
+        margin-top: -10%;
+    }
+ 
+  }
