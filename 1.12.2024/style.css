@@ -143,7 +143,7 @@ nav{
         margin-top: 0px;
     }
     .seaction-4{
-        width: 200%;
+        width: 100%;
     }
     .seaction-5{
         margin-top: 10px;
@@ -155,15 +155,15 @@ nav{
     }
   }
   @media only screen and (min-width: 1300px) {
+       .seaction-4{
+        width: 40%;
+    }
     .arrow{
         margin-top: -14%;
     }
   }
 
   @media only screen and (min-width: 1400px) {
-    .seaction-4{
-        width: 40%;
-    }
     .seaction-5{
         margin-top: 0;
     }
