@@ -1,0 +1,447 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+header {
+  height: 10vh;
+  background-color: #e10026;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu {
+  width: 20%;
+  height: 70%;
+  background-image: url('./images/burger.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+
+}
+
+nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.nav-menu {
+  display: none;
+  flex-direction: column;
+  background-color: rgba(255, 0, 0, 0.6);
+  padding: 13%;
+  height: 463px;
+  width: 100%;
+  position: absolute;
+  top: 108%;
+  right: 0%;
+  gap: 10%;
+  z-index: 2;
+}
+
+.burger:hover .nav-menu {
+  display: flex;
+}
+
+.burger-logo {
+  background-image: url('./images/burger.png');
+  background-size: cover;
+  width: 60px;
+  height: 52px;
+}
+
+.nav-menu a {
+  font-family: customfont2;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.nav-menu a:hover {
+  border: 1px solid #e10026;
+  font-size: larger;
+  border-radius: 5px;
+  transition: all ease-in-out 0.2s;
+}
+
+
+.rock-photo {
+  overflow: hidden;
+  border-bottom: 3px solid #e10026;
+}
+
+.rock-photo img {
+  margin-left: -40%;
+  height: 200%;
+  width: 200%;
+}
+
+button {
+  border: 1px solid #e10026;
+  background-color: #e10026;
+  color: white;
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+
+}
+
+@font-face {
+  font-family: With Cantus;
+  src: url('./fonts/GreatVibes-Regular.ttf');
+}
+
+@font-face {
+  font-family: Our Members;
+  src: url('./fonts/GreatVibes-Regular.ttf');
+}
+
+
+
+.lets-rock {
+  overflow: hidden;
+  border-bottom: 3px solid #e10026;
+  position: relative;
+
+}
+
+.font-family {
+  color: #e10026;
+  font-family: With Cantus;
+}
+
+.text-rock {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.lets-rock img {
+  align-items: start;
+  margin-left: -40%;
+  height: 200%;
+  width: 200%;
+}
+
+p {
+  font-size: 30px;
+}
+
+.text-in-lets-rock {
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left: 50%;
+
+
+
+}
+
+.text-in-lets-rock h2 {
+  letter-spacing: 5px;
+  font-size: 50px;
+  color: #e10026;
+
+
+}
+
+.text-in-lets-rock h3 {
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+
+.text-in-lets-rock a {
+  position: absolute;
+  background-color: #e10026;
+  left: 20%;
+  top: 110%;
+  border-radius: 25px;
+  padding: 5%;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 20px;
+
+
+}
+
+.text-in-lets-rock a:hover {
+  background-color: transparent;
+  color: #e10026;
+  border: 1px solid #e10026;
+  transition: all ease-in-out 0.2s;
+
+
+
+}
+
+.introducing {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+
+
+}
+
+
+
+.box {
+  margin-bottom: 10%;
+}
+
+.box img {
+  width: 100%;
+}
+
+
+
+
+.text-in-introducing {
+  margin-top: 5%;
+}
+
+
+.text-in-introducing h2,
+.text-in-latest-videos h2 {
+  font-size: 30px;
+}
+
+.text-in-introducing h3,
+.text-in-latest-videos h3 {
+  font-size: 25px;
+  color: #e10026;
+}
+
+
+
+.text-inside-box {
+  background-color: #e10026;
+  height: 70px;
+  color: white;
+
+
+}
+
+.latest-videos video {
+  
+  height: 40vh;
+  width: 100%;
+}
+
+.table-below-videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  margin: 5% 0%;
+  background-color: whitesmoke;
+  width: 90%;
+}
+
+td {
+  padding: 1% 5%;
+  font-size: 20px;
+}
+
+th {
+  padding: 1% 5%;
+  font-size: 20px;
+}
+
+.first-box {
+  background-color: #e10026;
+  color: white;
+}
+
+.singer-name {
+  color: #e10026;
+  font-size: 30px;
+}
+
+.newsletter {
+  margin: 5% 0%;
+  color: grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+footer {
+  margin: 5% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-in-footer {
+  margin: 5% 0%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  display: none;
+}
+
+.buttons-in-footer a {
+  color: black;
+}
+
+.buttons-in-footer a:hover {
+  border-bottom: 1px solid #e10026;
+  background-color: #e10026;
+  border-radius: 7px;
+  transition: all ease-in-out 0.5s;
+}
+
+.border {
+  border: 1px solid grey;
+  background-color: grey;
+  width: 100%;
+}
+
+.red {
+  color: #e10026;
+}
+
+@media screen and (min-width: 870px) {
+
+  nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 50%;
+    background-color: transparent;
+    position: initial;
+    transform: translate(-50%);
+  }
+
+
+  .burger-logo {
+    display: none;
+  }
+
+  .nav-menu a {
+    color: white;
+    letter-spacing: 2px;
+  }
+
+  .nav-menu a:hover {
+    border: 1px solid #e10026;
+    font-size: larger;
+    border-radius: 5px;
+    transition: all ease-in-out 0.2s;
+  }
+
+
+
+
+  .text-rock {
+    right: 30%;
+    top: 20%;
+    gap: 20px;
+  }
+
+  .lets-rock img {
+    align-items: start;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .introducing {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .text-in-introducing,
+  .text-in-latest-videos {
+    text-align: center;
+  }
+
+  .latest-videos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .latest-videos video {
+    width: 60%;
+    height: 60%;
+  }
+
+  .newsletter {
+    margin: 3%;
+  }
+
+  footer {
+    margin: 1%;
+  }
+
+  .buttons-in-footer {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .text-rock {
+    right: 40%;
+    top: 30%;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  nav {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  table {
+    display: none;
+    margin: 5% 0%;
+    font-family: customfont2;
+    background-color: rgb(235, 235, 235);
+    width: 90%;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .text-in-lets-rock {
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 40%;
+  }
+}
