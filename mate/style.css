@@ -1,0 +1,41 @@
+main{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid skyblue;
+}
+
+.conteiner1{
+
+}
+img{
+
+height:100px;
+    
+}
+.skyblue{
+    color: skyblue;
+}
+.gray{
+    color: gray;
+}
+
+
+.flex{
+    display: flex;
+}
+.left{
+    margin-left: 5vw;
+    margin-top: -1vw;
+    color: gray;
+}
+.pencil{
+    height: 20px;
+    width: 30px;
+}
+.justify-content{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
